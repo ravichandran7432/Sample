@@ -1,4 +1,7 @@
 class sample{
+ sample(){
+        System.out.println("Some text");
+    }
     sample(int n){
         if(n%2==1){
             System.out.println("ODD");
@@ -8,8 +11,9 @@ class sample{
     }
     public static void main(String args[]){
         System.out.println("Arigato");
-        sample obj=new sample(2347);
-        sample obj1=new sample(7432);
+        sample obj=new sample();
+        sample obj1=new sample(2347);
+        sample obj2=new sample(7432);
         System.out.println("THANK YOU");
     }
 }
